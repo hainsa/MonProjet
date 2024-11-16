@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: blue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    top: 50px;
+}
+
+.from-connection {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+
+}
+
+.champ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.acc {
+    background-color: beige;
+}
+
+.accueil {
+    width: 50%;
+    height: 70%;
+    background-color: rgba(248, 218, 172, 0.5);
+    background-image: -moz-linear-gradient();
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+    top: 50px;
+    border-radius: 5px;
+
+}
+
+.accueil1 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: inset;
+    box-sizing: border-box;
+    background-image: url('../images/livre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.voaloa {
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.conn {
+    width: 30%;
+    height: 55%;
+    margin: 0 auto;
+    background-color: rgba(248, 218, 172, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 5px;
+}
+
+.inscription {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.inscription1 {
+    width: 35%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: rgb(253, 214, 155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    top: 50px;
+    border: 5px;
+    box-shadow: 10px;
+}
